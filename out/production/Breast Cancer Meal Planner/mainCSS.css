@@ -1,0 +1,120 @@
+.root {
+    -fx-font: 18px "Berlin Sans FB";
+    -fx-background-color: #f7bbe2;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-background-color: #4286f4;
+    
+}
+
+.date-cell:hover {
+  -fx-background-color: #4286f4;
+}
+
+.date-cell {
+   -fx-background-color: #f760bf;
+}
+
+.date-cell:focused {
+    
+  -fx-background-color: #59bdf7;
+}
+
+.combo-box {
+    
+    -fx-background-color: white;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #f760bf;
+    -fx-text-fill: white;
+}
+
+.button {
+    
+    -fx-font: 18px "Century Gothic";
+    -fx-padding: 5;
+    -fx-background-color: #4286f4;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #59bdf7; 
+}
+
+.mwfButton {
+    
+     -fx-font: 18px "Century Gothic";
+    -fx-padding: 5;
+    -fx-background-color: #59bdf7;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 150px;
+    
+}
+
+.mwfButton:hover, .ttButton:hover {
+    -fx-background-color: #5dced8; 
+}
+
+.ttButton {
+    
+    -fx-font: 18px "Century Gothic";
+    -fx-padding: 5;
+    -fx-background-color: #4286f4;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 150px;
+}
+
+.chemoButton {
+    
+    -fx-font: 18px "Century Gothic";
+    -fx-padding: 5;
+    -fx-background-color: #d85dac;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 150px;
+    
+}
+
+.chemoButton:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #d85dac;
+}
+
+.list-cell {
+    -fx-padding: 5px;
+}
+
+.list-cell:filled:selected {
+    
+    -fx-background-color: #4286f4;
+    -fx-text-fill: white;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-background-color: white;
+    -fx-background-insets: 2, 0, 0;
+}
+
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #59bdf7;
+}
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow
+{
+    -fx-shape: " ";
+}
+
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 5 0 0;
+}
+
+
