@@ -1,2 +1,2 @@
 # Breast-Cancer-Meal-Planner
-Meal Planning JavaFX App
+This is a meal planning JavaFX app that is still under construction!
